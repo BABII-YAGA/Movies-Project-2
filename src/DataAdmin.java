@@ -22,7 +22,7 @@ public class DataAdmin {
             Date ReleaseDate = null;
             pstmt.setDate(3,ReleaseDate);
 
-            //
+            // Syntax to execute inserting data into the database
             int rowsAffected = pstmt.executeUpdate();
 
             // Should movie data be added into the database, a message will appear
