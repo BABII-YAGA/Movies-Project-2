@@ -35,22 +35,6 @@ SQL           | Data management
 
 ## Project Structure
 
-Movies Project 2
-│
-├── .idea/
-├── out/
-├── Screenshots/
-│
-├── src/
-│   ├── CreatingData.java
-│   ├── DataAdmin.java
-│   ├── DBConnectionManager.java
-│   └── Movies.java
-│
-├── .gitignore
-├── KNOWN_LIMITATION.MD
-├── Movies Project 2.iml
-└── ReadME.md
 
 ---
 
@@ -63,7 +47,7 @@ Movies Project 2
 - This java class handles the method required to add movie data into the movies database.
 
 <div align="center">
-<img>
+<img src="" width="700">
 
 **Screenshot of the DataUpload method within the DataAdmin java class**
 </div>
@@ -74,7 +58,7 @@ Movies Project 2
 - This is the main class which renders the application for the user to provide data of a movie.
 
 <div align="center">
-<img src="Screenshots/">
+<img src="Screenshots/" width="700">
 
 **Screenshot of the main method within the CreatingData java class**
 </div>
@@ -101,7 +85,6 @@ Movies Project 2
 <img src="Screenshots/MoviesClass.png" width="700">
 
 **Screenshot of the Movies.java class**
-
 </div>
 
 
