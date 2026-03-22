@@ -1,16 +1,16 @@
-# KNOWN Limitations & Debugging Analysis
+# KnownLimitations & Debugging Analysis
 
 ## Movies Project 2 - CREATE Module
 
 - This document outlines identified runtime issues within the Movies Database System, including root cause analysis and planned architectural improvements
-- The purpose of this document is to document debugging practices, system-level analysis, and forward-thinking version planning.
+- The purpose of this document is to document debugging practices, system-level analysis, and strategic version planning.
 
 ---
 
 ## 1. Compile-Time Status
 
 - No Java compile-time (syntax) errors were detected in the Movie Project 2 (CREATE Module).
-- The application compiles and executes successfully.
+- Therefore, the application compiles and executes successfully.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Issue Description:
 
-- A 'NULL' value appears in the **Release Date** data column after a user's data submission, despite providing correct **Date** values.
+- A 'NULL' value appears in the **Release Date** data column after a user's data submission, despite users providing correct **Date** values.
 
 - The UI is none descriptive and poor ; user is not alerted on acceptable date format. Errors may occur if user provides incorrect input format.
 
@@ -58,25 +58,26 @@ Inadequate constraints in the database, specifically the release date column, re
 
 - ## **Data-related syntax**
 
-Syntax which handles data inputs doesn't passall data from the user's inputs, but passes a 'null' value from a local variable.
+Syntax which handles data inputs doesn't pass all data from the user's inputs, but passes a 'null' value from a local variable.
 
 <div align="center">
-<img src="Screenshots/" width="700">
+<img src="Screenshots/DataAdminHighlightedSyntax.png" width="700">
 
 **Screenshot of Java syntax which handles data inputs**
 
 </div>
 
-**User-Interface experience**
+**User-Interface Experience**
 
--
+- ****
 
 <div align="center">
 <img src="Screenshots">
 
----
 
+****
 </div>
+
 
 ---
 

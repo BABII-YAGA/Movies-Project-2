@@ -3,7 +3,7 @@
 ## Application Overview
 
 - A simple **Java terminal-based application** that connects to a **MySQL database using JDBC** and allows a user to add movie related data.
-- The system demonstrates basic database integration and CRUD (CREATE) fun
+- The system demonstrates basic database integration and CRUD (CREATE) functionality.
 
 ---
 
@@ -35,6 +35,21 @@ SQL           | Data management
 
 ## Project Structure
 
+````
+Movies Project 2
+||
+|| === Screenshots
+||
+|| === src
+||     || === CreatingData.java
+||     || === DataAdmin.java
+||     || === DBConnectionManager.java
+||     || === Movies.java  
+||
+||
+|| === ReadME.md
+|| === KNOWN_LIMITAITIONS.md 
+````
 
 ---
 
@@ -47,7 +62,7 @@ SQL           | Data management
 - This java class handles the method required to add movie data into the movies database.
 
 <div align="center">
-<img src="" width="700">
+<img src="Screenshots/DataAdminClass.png" width="700">
 
 **Screenshot of the DataUpload method within the DataAdmin java class**
 </div>
@@ -58,7 +73,7 @@ SQL           | Data management
 - This is the main class which renders the application for the user to provide data of a movie.
 
 <div align="center">
-<img src="Screenshots/" width="700">
+<img src="Screenshots/CreatingDataClass.png" width="700">
 
 **Screenshot of the main method within the CreatingData java class**
 </div>
