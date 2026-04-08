@@ -72,7 +72,7 @@ Syntax which handles data inputs doesn't pass all data from the user's inputs, b
 - ****
 
 <div align="center">
-<img src="Screenshots">
+<img src="Screenshots/">
 
 
 ****

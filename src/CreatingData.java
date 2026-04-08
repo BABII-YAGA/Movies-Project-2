@@ -24,7 +24,7 @@ public static void main(String[] args) throws SQLException{
     System.out.print("Enter Movie's Release Date: ");
     Date ReleaseDate = Date.valueOf(sc.nextLine());
 
-    // Creating a new DataAdmin object (ad,)
+    // Creating a new DataAdmin object (adm)
     DataAdmin adm = new DataAdmin();
     // Passing data to DataAdmin's DataUpload method
     adm.DataUpload(movieName, genre, ReleaseDate);

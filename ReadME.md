@@ -38,17 +38,17 @@ SQL           | Data management
 ````
 Movies Project 2
 ||
-|| === Screenshots
+|| ===> Screenshots
 ||
-|| === src
-||     || === CreatingData.java
-||     || === DataAdmin.java
-||     || === DBConnectionManager.java
-||     || === Movies.java  
+|| ===> src
+||     || ===> CreatingData.java
+||     || ===> DataAdmin.java
+||     || ===> DBConnectionManager.java
+||     || ===> Movies.java  
 ||
 ||
-|| === ReadME.md
-|| === KNOWN_LIMITAITIONS.md 
+|| ===> ReadME.md
+|| ===> KNOWN_LIMITAITIONS.md 
 ````
 
 ---
